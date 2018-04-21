@@ -1,7 +1,7 @@
 
 
 public class DenseGraph {
-	//邻接矩阵实现图
+	//邻接矩阵实现稠密图
 	private int n,m;  //n为顶点数目,m为边数目
 	private boolean direct;
 	boolean[][] g;
