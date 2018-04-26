@@ -19,7 +19,7 @@ public class Path {
 		for(int w:graph2.adj(s2)){
 			if(!marked[w]){
 				edgeTo[w]=s2;
-				dfs(graph2,s2);
+				dfs(graph2,w);
 			}
 		}
 	}
